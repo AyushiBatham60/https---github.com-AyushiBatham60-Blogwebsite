@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+.post_page_body{
+    height: 80vh;
+    width: 150vh;
+    margin: 10vh;
+    margin-left: 25vh;
+    box-shadow: 2px 5px  5px 5px lightgray;
+    border-radius: 5px;
+    padding: 5vh;
+    overflow:auto;
+}
+.post_page_body h1{
+    font-family: 'Alkatra', cursive;
+    
+}
+.buttonEdit{
+    background-color: white;
+    box-shadow: 2px 2px black;
+    border: 2px solid  black;
+    color: black;
+    margin-right: 2vh;
+}
+.buttonEdit:hover{
+    background-color: gray;
+    color: white;
+    border: 2px solid  black;
+
+}
+.post_page_body h6{
+    color: black;
+}
+.formClass textarea{
+    overflow-y: scroll;
+    height: 70px;
+    width: 120vh;
+    resize: none; 
+    
+    border-radius: 3px;
+    margin-top: 2vh;
+}
+.formClass button{
+   height: 40px;
+   margin-top: 32vh;
+   margin-left: 1vh;
+}
+.formClass{
+    display: flex;
+    padding-left: 2vh;
+}
+.delete{
+    box-shadow: 2px 2px black;
+    border-color: black;
+    color: black;
+    margin-top: 2vh;
+}
+.delete:hover{
+    background-color: red;
+    color: white;
+    border-color: white;
+}

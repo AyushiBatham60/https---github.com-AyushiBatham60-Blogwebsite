@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.bodyy{
+    background-color:white;
+    height: 40vh;
+    box-shadow: 2px 5px 4px 4px grey;
+    width: 70vh;
+    margin-left: 60vh;
+    margin-top: 27vh;
+    padding:5vh;
+    border-radius: 5px ;
+    padding-left: 10vh;
+
+}
+.bodyy h3{
+    margin-left: 20vh;
+    text-shadow: 2px 2px grey;
+}
+.each_field h5{
+    padding:1vh 3vh;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.buttonEdit{
+    background-color: white;
+    box-shadow: 2px 2px black;
+    border: 2px solid  black;
+    color: black;
+    margin-left:20vh;
+}
+.buttonEdit:hover{
+    background-color: lightgray;
+    color: white;
+    border: 2px solid  black;
+
+}
+.bodyy p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1vh;
+}

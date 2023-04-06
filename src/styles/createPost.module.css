@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+.bodyy{
+    background-color:white;
+    height: 75vh;
+    box-shadow: 2px 5px 4px 4px grey;
+    width: 100vh;
+    margin-left: 45vh;
+    margin-top: 10vh;
+    padding:1vh;
+    padding-left: 8vh ;
+    border-radius: 5px ;
+
+}
+.post_heading{
+    margin-left: 22vh;
+    font-family: 'Alkatra', cursive;
+}
+.details input[type="submit"]{
+    margin-left: 25vh;
+    width: 30vh;
+    border: 2px solid black;
+    color: black;
+}
+
+.details input[type="submit"]:hover{
+    background-color: lightgrey;
+    color: white;
+}
+.details{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.details textarea {
+    overflow-y: scroll;
+    height: 100px;
+    width: 85vh;
+    resize: none; 
+}
