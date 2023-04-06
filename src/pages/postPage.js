@@ -80,14 +80,14 @@ const postPage = ({postData})=>{
              <h1>{postData.title} </h1>
               
               <p>{postData.content}</p>
-              <div style={{display:(uname==auth || urole=='admin')?'block':'none'}}>
+              <div style={{display:(uname==auth || urole=='Admin')?'block':'none'}}>
                   
                   <form onSubmit={editContent}><div className={styles.formClass}>
                   <textarea placeholder="  Enter content" value={editcontent} onChange={e=>setEditcontent(e.target.value)} style={{marginTop:"30vh"}} required></textarea>
                   <button className={"btn btn-outline-warning "+styles.buttonEdit} > Add views </button>
                   
                  </div></form>
-                 <button className={"btn btn-outline-danger "+styles.delete}  style={{display:(urole=='admin')?'block':'none'}}  onClick={deleteBlog}> Delete Blog </button>
+                 <button className={"btn btn-outline-danger "+styles.delete}  style={{display:(urole=='Admin')?'block':'none'}}  onClick={deleteBlog}> Delete Blog </button>
                   {/* <button  className={"btn btn-outline-warning "+styles.buttonEdit}>Delete</button> */}
               </div>
               
